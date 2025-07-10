@@ -1,0 +1,1 @@
+docker rename trusting_cohen claude-dev
