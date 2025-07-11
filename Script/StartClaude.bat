@@ -13,6 +13,10 @@ echo [INFO] Container name: %CONTAINER_NAME%
 echo.
 
 :: === EXECUTION ===
+
+::docker start %CONTAINER_NAME%
+:: NEED to update this to properly run an existing workspace
+
 docker run ^
   --name %CONTAINER_NAME% ^
   --mount type=bind,src="%WORKSPACE_PATH%",dst="%CONTAINER_MOUNT%" ^
