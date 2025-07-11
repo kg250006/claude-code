@@ -1,0 +1,4 @@
+::install the Dev Container CLI via npm:
+
+
+npm install -g @devcontainers/cli
